@@ -1,0 +1,169 @@
+{
+  "snapshot_frac_year": 2026.792,
+  "n_rfc_entries": 9851,
+  "n_dated": 9851,
+  "n_ever_obsoleted": 1384,
+  "pct_ever_obsoleted": 14.05,
+  "n_datable_obsolescence_events": 1384,
+  "negative_duration_anomalies": 3,
+  "time_to_obsolescence_years": {
+    "median": 4.0,
+    "q25": 1.67,
+    "q75": 7.94,
+    "min": 0.0,
+    "max": 41.33
+  },
+  "km": {
+    "median_survival_years": null,
+    "survival_at_5y": 0.9169,
+    "survival_at_10y": 0.872,
+    "survival_at_20y": 0.8419,
+    "survival_at_30y": 0.8332,
+    "final_survival": 0.826
+  },
+  "cohort_within_10y": [
+    {
+      "decade": "1969s",
+      "range": [
+        1969,
+        1979
+      ],
+      "n": 691,
+      "obsoleted_within_10y": 87,
+      "rate": 0.12590448625180897
+    },
+    {
+      "decade": "1980s",
+      "range": [
+        1980,
+        1989
+      ],
+      "n": 376,
+      "obsoleted_within_10y": 113,
+      "rate": 0.300531914893617
+    },
+    {
+      "decade": "1990s",
+      "range": [
+        1990,
+        1999
+      ],
+      "n": 1593,
+      "obsoleted_within_10y": 476,
+      "rate": 0.2988072818581293
+    },
+    {
+      "decade": "2000s",
+      "range": [
+        2000,
+        2009
+      ],
+      "n": 2888,
+      "obsoleted_within_10y": 299,
+      "rate": 0.10353185595567867
+    },
+    {
+      "decade": "2010s",
+      "range": [
+        2010,
+        2016
+      ],
+      "n": 2262,
+      "obsoleted_within_10y": 140,
+      "rate": 0.0618921308576481
+    }
+  ],
+  "trend_strictly_decreasing": false,
+  "trend_strictly_increasing": false,
+  "status_within_10y": {
+    "Standards Track": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "Informational": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "Experimental": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "Best Current Practice": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "Historic": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "Unknown": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    }
+  },
+  "stream_within_10y": {
+    "Editorial": {
+      "n": 0,
+      "within": 0,
+      "rate": null
+    },
+    "IAB": {
+      "n": 91,
+      "within": 8,
+      "rate": 0.08791208791208792
+    },
+    "IETF": {
+      "n": 5444,
+      "within": 715,
+      "rate": 0.13133725202057311
+    },
+    "INDEPENDENT": {
+      "n": 318,
+      "within": 24,
+      "rate": 0.07547169811320754
+    },
+    "IRTF": {
+      "n": 65,
+      "within": 1,
+      "rate": 0.015384615384615385
+    },
+    "Legacy": {
+      "n": 1893,
+      "within": 367,
+      "rate": 0.19387216059165346
+    }
+  },
+  "predictions": {
+    "P1_median_tto_3_to_12y": {
+      "result": true,
+      "value_years": 4.0
+    },
+    "P2_km_median_not_reached": {
+      "result": true,
+      "km_median_years": null,
+      "final_survival": 0.826
+    },
+    "P3_within10y_decreasing_by_decade": {
+      "result": false,
+      "rates": [
+        0.1259,
+        0.3005,
+        0.2988,
+        0.1035,
+        0.0619
+      ],
+      "increasing_instead": false
+    },
+    "P4_standards_track_gt_informational": {
+      "result": false,
+      "standards_track_rate": null,
+      "informational_rate": null
+    }
+  }
+}

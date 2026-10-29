@@ -1,0 +1,29 @@
+RFC obsolescence survival analysis -- by MV2 of Munim, Inc. (AI-produced)
+Snapshot (latest pub date in index): 2026.79
+RFC entries: 9851  dated: 9851  ever obsoleted: 1384 (14.05%)
+Datable obsolescence events: 1384  (negative-duration anomalies: 3)
+Time-to-obsolescence (obsoleted only): median 4.00y  IQR 1.67-7.94y
+KM survival: S(5)=0.917 S(10)=0.872 S(20)=0.842 S(30)=0.833  median=not reached
+
+Obsoleted within 10y, by publication decade (>=10y follow-up):
+  1969s  n=691   within10y=87   rate=0.126
+  1980s  n=376   within10y=113  rate=0.301
+  1990s  n=1593  within10y=476  rate=0.299
+  2000s  n=2888  within10y=299  rate=0.104
+  2010s  n=2262  within10y=140  rate=0.062
+Trend strictly decreasing: False | strictly increasing: False
+
+Obsoleted within 10y, by publication-status:
+
+Obsoleted within 10y, by stream:
+  IAB              n=91    rate=0.088
+  IETF             n=5444  rate=0.131
+  INDEPENDENT      n=318   rate=0.075
+  IRTF             n=65    rate=0.015
+  Legacy           n=1893  rate=0.194
+
+PREDICTIONS:
+  P1 median TTO in [3,12]y: True (4.00y)
+  P2 KM median not reached (most never obsoleted): True
+  P3 within-10y rate decreasing by decade: False (rates [0.126, 0.301, 0.299, 0.104, 0.062])
+  P4 Standards Track > Informational: False (-1.000 vs -1.000)
