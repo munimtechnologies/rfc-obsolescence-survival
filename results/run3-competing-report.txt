@@ -1,0 +1,16 @@
+RFC revision competing risks (Updates vs Obsoletes) -- MV2 of Munim, Inc. (AI-produced)
+Snapshot 2026.79  entries 9851  dated 9851  ever obsoleted 1384  ever updated 1242  both 184  anomalies 5
+
+Within 10 years, by cohort (>=10y follow-up):
+  1970s  n=691   obs10=0.126 upd10=0.119 any10=0.221 first-is-update=0.516 links/RFC=0.159 out-upd=0.136 out-obs=0.110
+  1980s  n=376   obs10=0.301 upd10=0.074 any10=0.354 first-is-update=0.203 links/RFC=0.146 out-upd=0.040 out-obs=0.229
+  1990s  n=1593  obs10=0.299 upd10=0.068 any10=0.341 first-is-update=0.193 links/RFC=0.104 out-upd=0.045 out-obs=0.193
+  2000s  n=2888  obs10=0.104 upd10=0.131 any10=0.220 first-is-update=0.586 links/RFC=0.222 out-upd=0.098 out-obs=0.128
+  2010s  n=2262  obs10=0.062 upd10=0.100 any10=0.154 first-is-update=0.645 links/RFC=0.151 out-upd=0.177 out-obs=0.097
+
+Cumulative incidence of first revision (full sample): {"5y": {"obsoleted_first": 0.0782, "updated_first": 0.0685, "no_revision": 0.8533}, "10y": {"obsoleted_first": 0.1151, "updated_first": 0.1055, "no_revision": 0.7795}, "20y": {"obsoleted_first": 0.1379, "updated_first": 0.1451, "no_revision": 0.717}}
+Median years to first update 4.75 (n=1242) vs to obsolescence 4.0 (n=1384)
+
+Most-updated RFCs: RFC1035(29,1987), RFC3261(21,2002), RFC1034(19,1987), RFC2026(15,1996), RFC3473(14,2003), RFC6325(14,2011), RFC3501(13,2003), RFC4120(13,2005), RFC5246(13,2008), RFC6514(13,2012), RFC2535(12,1999), RFC4271(12,2006), RFC4861(12,2007), RFC3550(10,2003), RFC1122(9,1989)
+
+PREDICTIONS: {"Q1_upd10_2000s_gt_1990s": true, "Q2_any10_2000s_lt_1990s": true, "Q3_share_first_update_strictly_rising_1980s_to_2010s": {"result": false, "values": [0.203, 0.193, 0.5865, 0.6447]}, "Q4_median_update_lt_median_obsolete": false}

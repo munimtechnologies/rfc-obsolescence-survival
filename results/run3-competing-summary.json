@@ -1,0 +1,238 @@
+{
+  "snapshot_frac_year": 2026.792,
+  "n_rfc_entries": 9851,
+  "n_dated": 9851,
+  "n_ever_obsoleted": 1384,
+  "n_ever_updated": 1242,
+  "n_both": 184,
+  "negative_duration_anomalies": 5,
+  "cohorts_10y": [
+    {
+      "cohort": "1970s",
+      "range": [
+        1969,
+        1979
+      ],
+      "n": 691,
+      "obsoleted_10y": 87,
+      "updated_10y": 82,
+      "any_10y": 153,
+      "obs10_rate": 0.12590448625180897,
+      "upd10_rate": 0.11866859623733719,
+      "any10_rate": 0.22141823444283648,
+      "first_revision_obsoleted": 74,
+      "first_revision_updated": 79,
+      "share_first_is_update": 0.5163398692810458,
+      "updating_rfcs_within_10y_per_rfc": 0.15918958031837915,
+      "outgoing_share_updates_others": 0.13603473227206947,
+      "outgoing_share_obsoletes_others": 0.10998552821997105
+    },
+    {
+      "cohort": "1980s",
+      "range": [
+        1980,
+        1989
+      ],
+      "n": 376,
+      "obsoleted_10y": 113,
+      "updated_10y": 28,
+      "any_10y": 133,
+      "obs10_rate": 0.300531914893617,
+      "upd10_rate": 0.07446808510638298,
+      "any10_rate": 0.3537234042553192,
+      "first_revision_obsoleted": 106,
+      "first_revision_updated": 27,
+      "share_first_is_update": 0.20300751879699247,
+      "updating_rfcs_within_10y_per_rfc": 0.14627659574468085,
+      "outgoing_share_updates_others": 0.0398936170212766,
+      "outgoing_share_obsoletes_others": 0.22872340425531915
+    },
+    {
+      "cohort": "1990s",
+      "range": [
+        1990,
+        1999
+      ],
+      "n": 1593,
+      "obsoleted_10y": 476,
+      "updated_10y": 109,
+      "any_10y": 544,
+      "obs10_rate": 0.2988072818581293,
+      "upd10_rate": 0.06842435655994979,
+      "any10_rate": 0.34149403640929066,
+      "first_revision_obsoleted": 439,
+      "first_revision_updated": 105,
+      "share_first_is_update": 0.19301470588235295,
+      "updating_rfcs_within_10y_per_rfc": 0.10420590081607031,
+      "outgoing_share_updates_others": 0.04519774011299435,
+      "outgoing_share_obsoletes_others": 0.19271814187068426
+    },
+    {
+      "cohort": "2000s",
+      "range": [
+        2000,
+        2009
+      ],
+      "n": 2888,
+      "obsoleted_10y": 299,
+      "updated_10y": 377,
+      "any_10y": 636,
+      "obs10_rate": 0.10353185595567867,
+      "upd10_rate": 0.13054016620498615,
+      "any10_rate": 0.22022160664819945,
+      "first_revision_obsoleted": 263,
+      "first_revision_updated": 373,
+      "share_first_is_update": 0.5864779874213837,
+      "updating_rfcs_within_10y_per_rfc": 0.22160664819944598,
+      "outgoing_share_updates_others": 0.09833795013850416,
+      "outgoing_share_obsoletes_others": 0.12846260387811634
+    },
+    {
+      "cohort": "2010s",
+      "range": [
+        2010,
+        2016
+      ],
+      "n": 2262,
+      "obsoleted_10y": 140,
+      "updated_10y": 226,
+      "any_10y": 349,
+      "obs10_rate": 0.0618921308576481,
+      "upd10_rate": 0.09991158267020336,
+      "any10_rate": 0.15428824049513704,
+      "first_revision_obsoleted": 124,
+      "first_revision_updated": 225,
+      "share_first_is_update": 0.6446991404011462,
+      "updating_rfcs_within_10y_per_rfc": 0.15119363395225463,
+      "outgoing_share_updates_others": 0.17727674624226347,
+      "outgoing_share_obsoletes_others": 0.09725906277630415
+    }
+  ],
+  "competing_risks_first_revision": {
+    "5y": {
+      "obsoleted_first": 0.0782,
+      "updated_first": 0.0685,
+      "no_revision": 0.8533
+    },
+    "10y": {
+      "obsoleted_first": 0.1151,
+      "updated_first": 0.1055,
+      "no_revision": 0.7795
+    },
+    "20y": {
+      "obsoleted_first": 0.1379,
+      "updated_first": 0.1451,
+      "no_revision": 0.717
+    }
+  },
+  "median_years_to_first_update": 4.75,
+  "median_years_to_obsolescence": 4.0,
+  "n_updated_datable": 1242,
+  "n_obsoleted_datable": 1384,
+  "most_updated_rfcs": [
+    {
+      "rfc": 1035,
+      "year": 1987,
+      "n_updated_by": 29,
+      "obsoleted": false
+    },
+    {
+      "rfc": 3261,
+      "year": 2002,
+      "n_updated_by": 21,
+      "obsoleted": false
+    },
+    {
+      "rfc": 1034,
+      "year": 1987,
+      "n_updated_by": 19,
+      "obsoleted": false
+    },
+    {
+      "rfc": 2026,
+      "year": 1996,
+      "n_updated_by": 15,
+      "obsoleted": false
+    },
+    {
+      "rfc": 3473,
+      "year": 2003,
+      "n_updated_by": 14,
+      "obsoleted": false
+    },
+    {
+      "rfc": 6325,
+      "year": 2011,
+      "n_updated_by": 14,
+      "obsoleted": false
+    },
+    {
+      "rfc": 3501,
+      "year": 2003,
+      "n_updated_by": 13,
+      "obsoleted": true
+    },
+    {
+      "rfc": 4120,
+      "year": 2005,
+      "n_updated_by": 13,
+      "obsoleted": false
+    },
+    {
+      "rfc": 5246,
+      "year": 2008,
+      "n_updated_by": 13,
+      "obsoleted": true
+    },
+    {
+      "rfc": 6514,
+      "year": 2012,
+      "n_updated_by": 13,
+      "obsoleted": false
+    },
+    {
+      "rfc": 2535,
+      "year": 1999,
+      "n_updated_by": 12,
+      "obsoleted": true
+    },
+    {
+      "rfc": 4271,
+      "year": 2006,
+      "n_updated_by": 12,
+      "obsoleted": false
+    },
+    {
+      "rfc": 4861,
+      "year": 2007,
+      "n_updated_by": 12,
+      "obsoleted": false
+    },
+    {
+      "rfc": 3550,
+      "year": 2003,
+      "n_updated_by": 10,
+      "obsoleted": false
+    },
+    {
+      "rfc": 1122,
+      "year": 1989,
+      "n_updated_by": 9,
+      "obsoleted": false
+    }
+  ],
+  "predictions": {
+    "Q1_upd10_2000s_gt_1990s": true,
+    "Q2_any10_2000s_lt_1990s": true,
+    "Q3_share_first_update_strictly_rising_1980s_to_2010s": {
+      "result": false,
+      "values": [
+        0.203,
+        0.193,
+        0.5865,
+        0.6447
+      ]
+    },
+    "Q4_median_update_lt_median_obsolete": false
+  }
+}
