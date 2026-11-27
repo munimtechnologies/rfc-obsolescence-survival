@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "How long internet standards last before they are replaced"
+abstract: "Only 14% of the 9,851 IETF RFCs have ever been obsoleted, and survival analysis says most never will be. Since 2000 the IETF patches its documents more often than it replaces them, and it revises them less often overall. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/rfc-obsolescence-survival"
+url: "https://www.munimtech.com/research/how-long-internet-standards-last"
+keywords:
+  - "Numerical"
+  - "Pre-registered"
+  - "Software"
+references:
+  - type: article
+    title: "How long internet standards last before they are replaced"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/how-long-internet-standards-last"
